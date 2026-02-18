@@ -1,46 +1,36 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "dmyip/dynamic-date",
+  "name": "dmyip/published-date",
   "version": "1.7.1",
-  "title": "Dynamic Date",
+  "title": "Published Date",
   "category": "widgets",
-  "icon": "calendar-alt",
-  "description": "Display dynamic dates that update automatically.",
+  "icon": "calendar",
+  "description": "Display the post's publication date dynamically.",
   "keywords": [
     "date",
-    "year",
-    "month",
-    "dynamic",
-    "time",
-    "age"
+    "published",
+    "created",
+    "posted",
+    "time"
   ],
   "textdomain": "dynamic-month-year-into-posts",
+  "usesContext": [
+    "postId",
+    "postType"
+  ],
   "attributes": {
-    "type": {
-      "type": "string",
-      "default": "year"
-    },
     "format": {
       "type": "string",
       "default": ""
     },
-    "offset": {
-      "type": "number",
-      "default": 0
-    },
-    "date": {
+    "prefix": {
       "type": "string",
       "default": ""
     },
-    "ageFormat": {
+    "suffix": {
       "type": "string",
-      "default": "y",
-      "enum": [
-        "y",
-        "ym",
-        "ymd"
-      ]
+      "default": ""
     }
   },
   "supports": {

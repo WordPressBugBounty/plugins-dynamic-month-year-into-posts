@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'gauravtiwari/dynamic-month-year-into-posts',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'd5b0ffa01de7d680978b655f788e27e70258a526',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'gauravtiwari/dynamic-month-year-into-posts' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'd5b0ffa01de7d680978b655f788e27e70258a526',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -22,27 +22,6 @@ class ComposerStaticInitdd2d730b5f05ea87578be59c481bb648
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'DMYIP\\BlockEditor\\Assets' => __DIR__ . '/../..' . '/src/BlockEditor/Assets.php',
-        'DMYIP\\BlockEditor\\BlockBindings' => __DIR__ . '/../..' . '/src/BlockEditor/BlockBindings.php',
-        'DMYIP\\BlockEditor\\DynamicDateBlock' => __DIR__ . '/../..' . '/src/BlockEditor/DynamicDateBlock.php',
-        'DMYIP\\BlockEditor\\Patterns' => __DIR__ . '/../..' . '/src/BlockEditor/Patterns.php',
-        'DMYIP\\CLI\\Commands' => __DIR__ . '/../..' . '/src/CLI/Commands.php',
-        'DMYIP\\Integrations\\Elementor' => __DIR__ . '/../..' . '/src/Integrations/Elementor.php',
-        'DMYIP\\Integrations\\RankMath' => __DIR__ . '/../..' . '/src/Integrations/RankMath.php',
-        'DMYIP\\Integrations\\RelatedPosts' => __DIR__ . '/../..' . '/src/Integrations/RelatedPosts.php',
-        'DMYIP\\Integrations\\SEOPress' => __DIR__ . '/../..' . '/src/Integrations/SEOPress.php',
-        'DMYIP\\Integrations\\Yoast' => __DIR__ . '/../..' . '/src/Integrations/Yoast.php',
-        'DMYIP\\Plugin' => __DIR__ . '/../..' . '/src/Plugin.php',
-        'DMYIP\\REST\\DatesEndpoint' => __DIR__ . '/../..' . '/src/REST/DatesEndpoint.php',
-        'DMYIP\\Shortcodes\\CoreFilters' => __DIR__ . '/../..' . '/src/Shortcodes/CoreFilters.php',
-        'DMYIP\\Shortcodes\\Countdown' => __DIR__ . '/../..' . '/src/Shortcodes/Countdown.php',
-        'DMYIP\\Shortcodes\\Date' => __DIR__ . '/../..' . '/src/Shortcodes/Date.php',
-        'DMYIP\\Shortcodes\\Day' => __DIR__ . '/../..' . '/src/Shortcodes/Day.php',
-        'DMYIP\\Shortcodes\\Events' => __DIR__ . '/../..' . '/src/Shortcodes/Events.php',
-        'DMYIP\\Shortcodes\\Month' => __DIR__ . '/../..' . '/src/Shortcodes/Month.php',
-        'DMYIP\\Shortcodes\\PostDate' => __DIR__ . '/../..' . '/src/Shortcodes/PostDate.php',
-        'DMYIP\\Shortcodes\\Season' => __DIR__ . '/../..' . '/src/Shortcodes/Season.php',
-        'DMYIP\\Shortcodes\\Year' => __DIR__ . '/../..' . '/src/Shortcodes/Year.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
